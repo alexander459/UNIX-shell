@@ -270,7 +270,7 @@ char *get_fileName(char *instruction){
 }
 
 
-/*executes a command containing pipes*/
+/*executes a command containing redirection*/
 int exec_rdr(char *instruction, char r){
   char *fileName;
   char *command;
